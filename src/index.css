@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Kumbh+Sans:wght@400;700&family=Montserrat&family=Poppins:wght@200;300;400;500;600;700;800&family=Tapestry&display=swap');
+
+:root{
+    --grey:rgb(202, 202, 202);
+    --yellow: rgb(238, 216, 17);
+    --font: 'Poppins', sans-serif;
+}
+
 body{
-    background-color: rgb(202, 202, 202);
+    background-color: var(--grey);
+    font-family: var(--font);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.links ul{
+    display: flex;
+    flex-direction: direction;
+    gap: 1rem;
+    list-style: none;
+    
+}
+
+.links a{
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: small;
 }
