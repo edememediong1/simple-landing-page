@@ -3,7 +3,9 @@
 :root{
     --grey:rgb(202, 202, 202);
     --yellow: rgb(238, 216, 17);
+    --white: rgb(253, 253, 250);
     --font: 'Poppins', sans-serif;
+    --black: black;
 }
 
 body{
@@ -17,19 +19,64 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-
+    padding-top: 0px;
+    height: 150px;
 }
 
 .links ul{
     display: flex;
     flex-direction: direction;
-    gap: 1rem;
-    list-style: none;
-    
+    gap: 4rem;
+    list-style: none;  
 }
 
 .links a{
     text-decoration: none; 
     font-weight: 600;
     font-size: small;
+    color: var(--black)
+}
+
+
+.fieldset{
+    display:flex;
+    justify-content: space-around;
+    gap: 1rem;
+    
+}
+
+.button{
+    background-color: var(--white);
+    border-radius: 0px;
+    border:none;
+    width:70px;
+    height: 60px;
+    font-family: var(--font);
+}
+
+.notif{
+    background-color: var(--yellow);
+    display: inline-flex;
+    width: 50px;
+    height: 40px;
+
+}
+
+.notif img{
+    justify-content: center;
+    width: 15px;
+    margin: auto;
+}
+
+.notification{
+    background-color: var(--black);
+    margin-left: -30px;
+    margin-top: -5px;
+    margin-right: -5px;
+    width: 15px;
+    height: 15px;
+    font-size: xx-small;
+    color: var(--white);
+    align-items: center;
+    border-radius: 30px;
 }
