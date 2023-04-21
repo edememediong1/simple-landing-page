@@ -37,6 +37,9 @@ body{
     color: var(--black)
 }
 
+.logo h1{
+    font-weight: 800;
+}
 
 .fieldset{
     display:flex;
@@ -50,8 +53,9 @@ body{
     border-radius: 0px;
     border:none;
     width:70px;
-    height: 60px;
+    height: 40px;
     font-family: var(--font);
+    align-items: center;
 }
 
 .notif{
@@ -71,7 +75,7 @@ body{
 .notification{
     background-color: var(--black);
     margin-left: -30px;
-    margin-top: -6git px;
+    margin-top: -5px;
     margin-right: -5px;
     width: 20px;
     height: 20px;
@@ -83,5 +87,5 @@ body{
 
 .notification h3{
     text-align: center;
-    margin-top: -0.1px;
+    margin-top: 0.8px;
 }
