@@ -89,3 +89,11 @@ body{
     text-align: center;
     margin-top: 0.8px;
 }
+
+
+/* <=================Hero Section====================> */
+
+.hero-container {
+    display: flex;
+    
+}
