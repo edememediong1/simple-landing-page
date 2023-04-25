@@ -37,7 +37,7 @@ body{
     color: var(--black)
 }
 
-.logo h1{
+#logo {
     font-weight: 800;
 }
 
@@ -95,5 +95,48 @@ body{
 
 .hero-container {
     display: flex;
+    justify-content:space-between;
     
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 300px;
+
+}
+
+ .heading{
+   
+    display: flex;
+    flex-direction: column;
+ }
+
+.title{
+    padding: 0px;
+    margin-bottom: -55px;
+    font-size: 40px;
+}
+
+.price{
+    margin-top: 30px;
+}
+
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    width: 20%;
+    height:100%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.slide img{
+    max-width: 100px;
+    height: 100%;
+    margin: auto;
 }
