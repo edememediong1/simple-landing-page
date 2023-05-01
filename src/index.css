@@ -102,7 +102,7 @@ body{
 .info-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     border: 1px solid black;
     width: 300px;
 
@@ -130,7 +130,10 @@ body{
 }
 
 .size{
-    outline: none;
+    border: none;
+    width: 150px;
+    background-color: var(--grey);
+    border-bottom: 1px solid grey;
 }
 
 .carousel-container{
@@ -144,8 +147,87 @@ body{
     gap: 1rem;
 }
 
+.cart-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+    background-color: var(--yellow);
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.cart-container img{
+    width: 25px;
+    margin-right:10px;
+    height: 18px
+}
+
+.cart-container p{
+    margin-left: 10px;
+}
+
 .slide img{
     max-width: 100px;
     height: 100%;
     margin: auto;
+}
+
+.middle-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle-hero h1{
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    color: var(--white);
+    font-style: italic;
+    letter-spacing: -13px;
+    z-index: -1;
+    text-align: center;
+    margin-left: 120px;
+   
+}
+
+.shoe{
+    width: 700px;
+    border: 1px rgb(61, 28, 28) solid;
+    margin-top: -200px;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials img{
+    width: 20px;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+.ad-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+}
+
+
+
+.video{
+    width: auto;
+    height: 120px;si
 }
